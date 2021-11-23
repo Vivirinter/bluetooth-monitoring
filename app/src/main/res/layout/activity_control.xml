@@ -6,4 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".ControlActivity">
 
+    <Button
+        android:id="@+id/bB"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Send B"
+        app:layout_constraintBottom_toTopOf="@+id/bA"
+        app:layout_constraintEnd_toEndOf="@+id/bA"
+        app:layout_constraintStart_toStartOf="@+id/bA" />
+
+    <Button
+        android:id="@+id/bA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Send A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
